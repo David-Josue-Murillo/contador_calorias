@@ -1,14 +1,14 @@
 import { useState, ChangeEvent, FormEvent, Dispatch } from "react"
 import { v4 as uuidv4 } from "uuid"
-import type { activity } from "./types"
-import { categories } from "./data/categories"
+import type { activity } from "../types"
+import { categories } from "../data/categories"
 import { ActivityActions } from "../reducers/activity-reducer"
 
 type FormProps = {
    dispatch: Dispatch<ActivityActions>
 }
 
-const initialState: activity = {
+const initialState: activity = { 
    id: uuidv4(),
    category: 1,
    name: '',

@@ -1,4 +1,4 @@
-import { activity } from "../components/types";
+import { activity } from "../types";
 
 export type ActivityActions = {
     type: 'save-activity',

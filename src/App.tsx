@@ -23,6 +23,10 @@ function App() {
                />
             </div>
          </section>
+
+         <section className="p-10 mx-auto max-w-4xl">
+            
+         </section>
       </>
    )
 }
